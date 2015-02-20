@@ -140,6 +140,7 @@ class ANTChannel : public QObject {
 
         // special cases
         bool is_kickr;
+        bool is_realturbomuin;
         bool is_moxy; // bool
         bool is_cinqo; // bool
         bool is_old_cinqo; // bool, set for cinqo needing separate control channel

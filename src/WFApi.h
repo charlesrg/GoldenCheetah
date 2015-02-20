@@ -133,6 +133,10 @@ public:
                     case 3:
                         returning = tr("Kurt Kinetic InRide Power Meter");
                         break;
+
+                    case 4:
+                        returning = tr("Elite Real Turbo Muin");
+                        break;
                 }
             }
             break;
@@ -153,7 +157,8 @@ public:
         WF_SENSOR_SUBTYPE_UNSPECIFIED                = 0,
         WF_SENSOR_SUBTYPE_BIKE_POWER_KICKR           = 1,
         WF_SENSOR_SUBTYPE_BIKE_POWER_STAGE_ONE       = 2,
-        WF_SENSOR_SUBTYPE_BIKE_POWER_IN_RIDE         = 3 } _sensorsubtype;
+        WF_SENSOR_SUBTYPE_BIKE_POWER_IN_RIDE         = 3, 
+        WF_SENSOR_SUBTYPE_BIKE_POWER_REALTURBOMUIN   = 4 } _sensorsubtype;
 
     // scan
     bool discoverDevicesOfType(int eSensorType);

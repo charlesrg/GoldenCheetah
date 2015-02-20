@@ -145,6 +145,7 @@ static inline NSString* fromQString(const QString &string)
     params.sensorType = WF_SENSORTYPE_BIKE_POWER;
     params.networkType = WF_NETWORKTYPE_BTLE;
     params.sensorSubType = WF_SENSOR_SUBTYPE_BIKE_POWER_KICKR;
+    params.sensorSubType = WF_SENSOR_SUBTYPE_BIKE_POWER_REALTURBOMUIN;
     params.searchTimeout = 5;
     params.device1 = dev;
 

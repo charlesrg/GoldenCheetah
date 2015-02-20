@@ -36,6 +36,7 @@ ANTChannel::init()
     channel_type=CHANNEL_TYPE_UNUSED;
     channel_type_flags=0;
     is_kickr=false;
+    is_realturbomuin=false;
     is_moxy=false;
     is_cinqo=0;
     is_old_cinqo=0;

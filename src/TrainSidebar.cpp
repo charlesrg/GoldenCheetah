@@ -40,6 +40,7 @@
 #include "NullController.h"
 #ifdef GC_HAVE_WFAPI
 #include "KickrController.h"
+#include "RealTurboMuinController.h"
 #endif
 #ifdef GC_HAVE_LIBUSB
 #include "FortiusController.h"

@@ -98,6 +98,10 @@ ANT::ANT(QObject *parent, DeviceConfiguration *devConf) : QThread(parent), devCo
     kickrDeviceID = 0;
     kickrChannel = -1;
 
+    // kickr
+    RealTurboMuinDeviceID = 0;
+    RealTurboMuinChannel = -1;
+
     // vortex
     vortexID = vortexChannel = -1;
 
